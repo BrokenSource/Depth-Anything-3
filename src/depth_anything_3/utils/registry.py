@@ -13,7 +13,8 @@
 # limitations under the License.
 
 from typing import Any
-from addict import Dict
+
+from dotmap import DotMap as Dict
 
 
 class Registry(Dict[str, Any]):

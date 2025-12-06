@@ -17,7 +17,7 @@ from typing import Dict as TyDict
 from typing import List, Sequence, Tuple
 import torch
 import torch.nn as nn
-from addict import Dict
+from dotmap import DotMap as Dict
 from einops import rearrange
 
 from depth_anything_3.model.utils.head_utils import (

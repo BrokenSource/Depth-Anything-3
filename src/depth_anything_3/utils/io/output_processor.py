@@ -23,9 +23,8 @@ from __future__ import annotations
 
 import numpy as np
 import torch
-from addict import Dict as AddictDict
-
 from depth_anything_3.specs import Prediction
+from dotmap import DotMap as AddictDict
 
 
 class OutputProcessor:
